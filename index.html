@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ryo Minakawa | Web Designer & Frontend Developer</title>
+    <meta name="description" content="Portfolio of Ryo Minakawa, a Web Designer and Frontend Developer specializing in modern landing pages and corporate sites.">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800&family=Noto+Sans+JP:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <!-- Boxicons -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- ScrollReveal -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+</head>
+<body>
+    <!-- Navbar -->
+    <header class="header">
+        <a href="#home" class="logo">R.Minakawa<span>.</span></a>
+        <i class='bx bx-menu' id="menu-icon"></i>
+        <nav class="navbar">
+            <a href="#home" class="active">Home</a>
+            <a href="#about">About</a>
+            <a href="#services">Services</a>
+            <a href="#works">Works</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="home" id="home">
+        <div class="home-content">
+            <h3>Hello, I'm</h3>
+            <h1>Ryo Minakawa</h1>
+            <h3>And I'm a <span class="multiple-text"></span></h3>
+            <p>I combine logic-driven content strategy with modern frontend development to create high-converting landing pages and websites. 56件の実績に裏打ちされた文脈理解力で、あなたのビジネスを加速させます。</p>
+            <div class="social-media">
+                <a href="#"><i class='bx bxl-github'></i></a>
+                <a href="#"><i class='bx bxl-twitter'></i></a>
+            </div>
+            <a href="#contact" class="btn">Hire Me</a>
+        </div>
+        <div class="home-img">
+            <div class="glass-orb"></div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about" id="about">
+        <div class="about-content">
+            <h2 class="heading">About <span>Me</span></h2>
+            <h3>Web Designer & Content Strategist</h3>
+            <p>「正確な意図の汲み取り」と「モダンな実装力」を強みとしています。ライティング56件/評価5.0の実績で培った「報連相の徹底」と「クライアントの真のニーズを理解する力」を武器に、単なるデザインではなく「成果に直結する」Web制作を提供します。Figma等からのピクセルパーフェクトなコーディングや、リッチなCSSアニメーション実装まで幅広く対応可能です。</p>
+            <a href="#works" class="btn">View Works</a>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="services" id="services">
+        <h2 class="heading">My <span>Services</span></h2>
+        <div class="services-container">
+            <div class="services-box glass-panel">
+                <i class='bx bx-code-alt'></i>
+                <h3>Frontend Development</h3>
+                <p>HTML5, CSS3, Vanilla JSを用いたモダンで軽量、かつ保守性の高いレスポンシブなコーディングを提供します。</p>
+            </div>
+            <div class="services-box glass-panel">
+                <i class='bx bx-desktop'></i>
+                <h3>Web Design</h3>
+                <p>ダークモードやグラスモーフィズムなど、最新のトレンドを取り入れた洗練された高級感のあるデザインを構築します。</p>
+            </div>
+            <div class="services-box glass-panel">
+                <i class='bx bx-pen'></i>
+                <h3>Content Strategy</h3>
+                <p>SEOを意識した構成案やキャッチコピーの作成など、マーケティング視点を持った上流工程から一貫してサポートします。</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Works Section -->
+    <section class="works" id="works">
+        <h2 class="heading">Latest <span>Works</span></h2>
+        <div class="works-container">
+            <!-- Portfolio Item 1 -->
+            <div class="works-box">
+                <div class="works-layer">
+                    <h4>Corporate Website</h4>
+                    <p>B2B企業向けの洗練されたコーポレートサイト。</p>
+                    <a href="#"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+            <!-- Portfolio Item 2 -->
+            <div class="works-box">
+                <div class="works-layer">
+                    <h4>SaaS Landing Page</h4>
+                    <p>コンバージョンを最大化するモダンなLPデザイン。</p>
+                    <a href="#"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+            <!-- Portfolio Item 3 -->
+            <div class="works-box">
+                <div class="works-layer">
+                    <h4>Service Promotion</h4>
+                    <p>アニメーションを多用したサービス紹介LP。</p>
+                    <a href="#"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+        <h2 class="heading">Contact <span>Me</span></h2>
+        <form action="#">
+            <div class="input-box">
+                <input type="text" placeholder="Full Name">
+                <input type="email" placeholder="Email Address">
+            </div>
+            <div class="input-box">
+                <input type="text" placeholder="Project Type">
+                <input type="text" placeholder="Email Subject">
+            </div>
+            <textarea name="message" cols="30" rows="10" placeholder="Your Message"></textarea>
+            <input type="submit" value="Send Message" class="btn">
+        </form>
+    </section>
+
+    <footer class="footer">
+        <div class="footer-text">
+            <p>Copyright &copy; 2026 by Ryo Minakawa | All Rights Reserved.</p>
+        </div>
+        <div class="footer-iconTop">
+            <a href="#home"><i class='bx bx-up-arrow-alt'></i></a>
+        </div>
+    </footer>
+
+    <!-- Typed.js for typing animation -->
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
