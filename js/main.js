@@ -49,7 +49,7 @@ ScrollReveal().reveal('.home-content p, .about-content p', { origin: 'right' });
 
 // Typed.js
 const typed = new Typed('.multiple-text', {
-    strings: ['AI Automation Consultant', 'Claude Code Specialist', 'GAS Automation Engineer', 'Frontend Developer'],
+    strings: ['Business Automation Engineer', 'Python / API Automation', 'Generative AI Tools', 'GAS Automation Engineer'],
     typeSpeed: 70,
     backSpeed: 70,
     backDelay: 1000,
